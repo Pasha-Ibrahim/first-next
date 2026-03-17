@@ -19,11 +19,11 @@ const projects = [
     github: "https://github.com/Pasha-Ibrahim/Weather-App",
   },
   {
-    title: "Blog App",
-    image: "/blog.png",
-    description: "Fullstack blog tətbiqi Next.js + Node.js ilə.",
-    live: "",
-    github: "",
+    title: "Age-Calculator",
+    image: "/agecalculator.png",
+    description: "HTML CSS və JavaScript ilə hazırlanmış Age-Calculator.",
+    live: "https://age-calculator-pearl-zeta.vercel.app/",
+    github: "https://github.com/Pasha-Ibrahim/Age-Calculator",
   },
 ];
 
