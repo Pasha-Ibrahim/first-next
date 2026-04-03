@@ -1,10 +1,11 @@
+import Link from "next/link";
 import React from "react";
 
 const Home = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col justify-center items-center bg-linear-to-r from-blue-900 via-purple-900 to-pink-900 text-white px-6 text-center"
+      className="min-h-screen flex flex-col justify-center items-center  bg-gradient-to-r from-blue-900 via-purple-900 to-pink-900 text-white px-6 text-center"
     >
       <img
         src="profile.jpeg"
@@ -20,12 +21,12 @@ const Home = () => {
       </p>
 
       <div className="mt-8">
-        <a
-          href="#projects"
+        <Link
+          href="/projects"
           className="px-6 py-3 bg-blue-500 rounded-md text-white hover:bg-blue-600 transition"
         >
           See My Projects
-        </a>
+        </Link>
       </div>
     </section>
   );

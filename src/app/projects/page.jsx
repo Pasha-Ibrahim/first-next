@@ -25,6 +25,21 @@ const projects = [
     live: "https://age-calculator-pearl-zeta.vercel.app/",
     github: "https://github.com/Pasha-Ibrahim/Age-Calculator",
   },
+  {
+    title: "Calculator-App",
+    image: "/calculator.png",
+    description: "HTML CSS və JavaScript ilə hazırlanmış Calculator-App.",
+    live: "https://calculator-app-lilac-delta.vercel.app/",
+    github: "https://github.com/Pasha-Ibrahim/Calculator-App"
+  },
+    {
+    title: "Clock-App",
+    image: "/clock.png",
+    description: "HTML CSS və JavaScript ilə hazırlanmış Clock-App.",
+    live: "https://clock-app-neon.vercel.app/",
+    github: "https://github.com/Pasha-Ibrahim/Clock-App",
+  },
+  
 ];
 
 export default function Projects() {
@@ -69,3 +84,5 @@ export default function Projects() {
     </section>
   );
 }
+
+ 
